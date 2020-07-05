@@ -1,0 +1,128 @@
+.all{
+  width: 100%;
+}
+.navbar{
+  background:var(--color-white) !important;
+}
+.navbar .navbar-brand{
+  color: #43a047 !important;
+  font-family: var(--font-primary);
+  font-size: 20px;
+}
+.navbar-brand img{
+  width: 35px;
+}
+.navbar{
+    padding: 20px;
+}
+.btn{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  width: 170px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'roboto', sans-serif;
+  line-height: 24px;
+ 
+}
+.btn-link{
+  margin-right: 10px;
+  color: #777a83 !important;
+  transition: .5s;
+}
+.btn-link:hover{
+  background-color: #777a83;
+  color: var(--color-white) !important;
+  border-radius: 5px !important;
+}
+.btn-success{
+  border-radius: 5px !important;
+  color: var(--color-white) !important;
+}
+.hero__img img{
+  width:800px;
+  position: relative;
+  top: 150px;
+  left: 530px;
+}
+.hero__container{
+  display: flex;
+  align-items: center;
+}
+.hero__copy{
+  margin: 20vmin 0 0 20vmin ;
+  width: 500px;
+}
+.hero__copy h1{
+  font-family: var(--font-primary);
+  color: var(--color-green);
+  font-size: 80px;
+  line-height: 80px;
+}
+.hero__copy p{
+  
+}
+.hero__story{
+  display: flex;
+  
+}
+.hero__story img{
+  
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

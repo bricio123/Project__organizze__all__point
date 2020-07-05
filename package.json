@@ -1,0 +1,19 @@
+{
+  "name": "project__organizze__all__point",
+  "version": "1.0.0",
+  "description": "first web site with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bricio123/Project__organizze__all__point.git"
+  },
+  "author": "fabricio de sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bricio123/Project__organizze__all__point/issues"
+  },
+  "homepage": "https://github.com/bricio123/Project__organizze__all__point#readme"
+}
