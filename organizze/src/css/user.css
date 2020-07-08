@@ -1,0 +1,23 @@
+.img img{
+    width: 600px;
+    height: 716px;
+}
+  
+.users__container{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.users__copy h1{
+    font-size: 4rem;
+    font-family: var(--font-primary);
+    color: var(--color-green);
+}
+.users__copy p{
+    font-size: 22px;
+    height: 300;
+    line-height: 33px;
+    color: #868a93;
+    margin: 20px 0 50px 0;
+}

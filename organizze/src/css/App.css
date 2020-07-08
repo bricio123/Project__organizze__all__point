@@ -14,6 +14,7 @@
 }
 .navbar{
     padding: 20px;
+    margin-bottom: calc(120px - 1.5rem);
 }
 .btn{
  display: flex;
@@ -41,19 +42,26 @@
   border-radius: 5px !important;
   color: var(--color-white) !important;
 }
-.hero__img img{
-  width:800px;
-  position: relative;
-  top: 150px;
-  left: 530px;
-}
 .hero__container{
-  display: flex;
-  align-items: center;
+  display: grid ;
+  grid-template-columns: 1fr 2fr ;
+  justify-content: center;
+  margin: 0 auto;
+ overflow: hidden;
+}
+.hero__img img{
+  width:850px;
+  height: 660px;
+  transform: translateX(-10%)
+ 
+}
+.hero__img{
+  position: relative;
 }
 .hero__copy{
-  margin: 20vmin 0 0 20vmin ;
+  margin: 50px 0 0 35vmin;
   width: 500px;
+  z-index: 2;
 }
 .hero__copy h1{
   font-family: var(--font-primary);
@@ -62,41 +70,20 @@
   line-height: 80px;
 }
 .hero__copy p{
-  
+    font-size: 22px;
+    height: 300;
+    line-height: 33px;
+    color: #868a93;
+    margin: 50px 0 30% 0;
 }
 .hero__story{
   display: flex;
-  
+ 
 }
 .hero__story img{
-  
-  width: 150px;
+  margin: 10px;
+  width: 170px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
