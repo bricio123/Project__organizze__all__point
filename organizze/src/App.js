@@ -2,6 +2,7 @@ import React from 'react';
 import './css/App.css';
 import './css/user.css';
 import './css/time_money.css';
+import './css/about__sistem.css';
 import hero from './img/hero.png'
 import icon from './img/centavo.png';
 import appStory from './img/app_store.png';
@@ -10,6 +11,7 @@ import handPhone from './img/hand-mock.png';
 import time from './img/iphone.png';
 import time_back from './img/half-oval.svg';
 import card from './img/img-cards.png';
+import about from './img/phone-emoji.png';
 
 function App() {
   return (
@@ -56,7 +58,7 @@ function App() {
                 </p>
           </article>
         </section>
-        
+
       </div>
 
       <div class="time_money">
@@ -69,9 +71,9 @@ function App() {
 
             <div class="one">
               <img class="time" src={time} />
-            <div class="hero__story">
-              <img src={appStory}/>
-              <img src={googlePlay}/>
+              <div class="hero__story">
+                <img src={appStory} />
+                <img src={googlePlay} />
               </div>
               <img class="card" src={card} />
             </div>
@@ -82,7 +84,23 @@ function App() {
 
           </div>
         </div>
+      </div>
+      <div class="about__sistem">
+        <section class="about__copy">
+          <div class="about__text">
+            <h2>Fácil de usar</h2>
+            <p>O sistema foi desenhado para ser intuitivo e tornar sua experiência cada vez mais natural. Com poucos cliques você consegue fazer um controle incrível do seu dinheiro!</p>
+          </div>
+          <div class="about__text">
+            <h2>Suporte que funciona</h2>
+            <p>Dúvidas? Perguntas? Nosso suporte gente boa ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil.</p>
+          </div>
+        </section>
+
+        <div class="about__img">
+          <img src={about}/>
         </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.about__sistem{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  
+    margin: 0 auto;
+    padding: 127px;
+}
+
+.about__text h2{
+    font-size: 40px;
+    font-family: var(--font-primary);
+    color: #42464e;
+    line-height: 48px;
+    width: 300px;
+}
+.about__text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #747b87;
+    width: 400px;
+}
+.about__img img{
+    width: 530px;
+    height: 614px;
+}
